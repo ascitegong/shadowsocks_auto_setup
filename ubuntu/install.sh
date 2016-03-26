@@ -7,7 +7,7 @@ pip install shadowsocks
 which supervisord
 which ssserver
 
-cp shadowsocks_1.conf /etc/
+cp shadowsocks_1.json /etc/
 cp shadowsocks.conf /etc/supervisor/conf.d/
 
 service supervisor start
